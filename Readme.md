@@ -15,9 +15,8 @@ Suggested materials:
   5. 330 ohm resistor
   6. [German epee socket](https://www.absolutefencinggear.com/af-master-series-german-epee-socket.html) - $11 x2 (need one per box)
   7. Solder/Soldering iron
-
-Total is about $40
-
+  8. Small portable charger with short(3") usb->micro usb cable x2
+  9. Some sort of protective housing to put the circuit in, I modeled and 3d printed one but a cardboard box would work just as well. Make sure the Micro usb port is visible from the outside.
 ## Building the circuit:
 <pre>
 
@@ -30,19 +29,12 @@ Total is about $40
 3. Wire negative pin of LED to positive speaker pin and 330 ohm resistor, negative speaker pin and resistor should end at ground.
 4. Wire 5v out pin on board to A line in the epee socket, Wire b line in socket to D9 pin on board
 
-Done, you breadboard should now look roughly like this(but hopefully better):
-
-<pre>
-
-<img src="./circuit.png" align="left" width="500px"/>
-
-</pre>
 
 ## Building the program:
 1. Go to tools and set board to ESP32 dev module, set port to the port where you board is plugged in.
 2. We first must find the MAC address of the ESP32 board, using the included get_mac.ino program. The MAC address will be output to the serial monitor, you must manually convert it to the correct format seen in Fencer1.ino and Fencer2.ino (0xYY where YY is the corresponding 2 characters in the mac address).
 3. Set uint8_t broadcastAddress at line 27 in Fencer1.ino to the found MAC address of the board you are using for Fencer2.ino and set uint8_t broadcastAddress at line 27 in Fencer2.ino to the MAC address of the board for Fencer1.ino
-4. Download Fencer1.ino and Fencer2.ino to there respective boards. Use body cord to connect to weapon and test.
+4. Download Fencer1.ino and Fencer2.ino to there respective boards. Use body cord to connect to weapon and test. I use a small portable phone charger plugged into the arduino's mircro usb port for power while in use.
 
 See this [tutorial](https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/) for explanation of code.
 
