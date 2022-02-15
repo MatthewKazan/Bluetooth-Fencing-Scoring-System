@@ -23,7 +23,7 @@ Total is about $40
 
 Done, you breadboard should now look roughly like this(but hopefully better):
 
-#<img src="./circuit.png" align="left" width="500px"/>
+#<img src="./circuit_diagram.png" align="left" width="500px"/>
 
 <br />
 
