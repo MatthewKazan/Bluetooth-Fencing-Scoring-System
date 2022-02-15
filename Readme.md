@@ -25,6 +25,8 @@ Done, you breadboard should now look roughly like this(but hopefully better):
 
 <img src="./circuit.png" align="left" width="500px"/>
 
+<br />
+
 ## Building the program:
 1. Go to tools and set board to ESP32 dev module, set port to the port where you board is plugged in.
 2. We first must find the MAC address of the ESP32 board, using the included get_mac.ino program. The MAC address will be output to the serial monitor, you must manually convert it to the correct format seen in Fencer1.ino and Fencer2.ino (0xYY where YY is the corresponding 2 characters found).
