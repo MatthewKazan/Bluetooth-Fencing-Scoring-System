@@ -13,8 +13,11 @@ Suggested materials for 1 box:
 Total is about $40
 
 ## Building the circuit:
+<pre>
 
 <img src="./circuit_diagram.png" align="left" width="500px"/>
+
+<pre />
 
 1. Place ESP32 board into breadboard with usb connector at the edge, solder header pins to breadboard
 2. Wire positive pin of LED to pin A1, or GPIO pin 25 ([pinout found here](https://cdn-shop.adafruit.com/product-files/3269/pinout_wroom_pinout.png))
@@ -23,9 +26,11 @@ Total is about $40
 
 Done, you breadboard should now look roughly like this(but hopefully better):
 
-#<img src="./circuit_diagram.png" align="left" width="500px"/>
+<pre>
 
-<br />
+<img src="./circuit.png" align="left" width="500px"/>
+
+<pre />
 
 ## Building the program:
 1. Go to tools and set board to ESP32 dev module, set port to the port where you board is plugged in.
