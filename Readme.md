@@ -25,7 +25,7 @@ Suggested materials:
 </pre>
 
 1. Place ESP32 board into breadboard with usb connector at the edge, solder header pins to breadboard
-2. Wire positive pin of LED to pin A1 or GPIO pin 25(same pin) ([pinout found here](https://cdn-shop.adafruit.com/product-files/3269/pinout_wroom_pinout.png))
+2. Wire positive pin of LED to pin A1 or GPIO pin 25(same pin) ([pinout found here](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts)
 3. Wire negative pin of LED to positive speaker pin and 330 ohm resistor, negative speaker pin and resistor should end at ground.
 4. Wire 5v out pin on board to A line in the epee socket, Wire b line in socket to D9 pin on board
 
