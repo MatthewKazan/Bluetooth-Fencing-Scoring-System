@@ -3,8 +3,6 @@
 Notes before we start:
 1. This system DOES NOT GROUND, bell guard hits will register as will touches on the strip obviously
 2. No guarantee of timing accuracy, should be about right but I have not tested how accurate it is
-3. Doesn't actually use Bluetooth
-
 
 Suggested materials:
 
